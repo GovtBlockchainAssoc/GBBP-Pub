@@ -1,0 +1,38 @@
+{
+    "name": "poaethtokensdapp",
+    "version": "0.0.6",
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "node": true
+        },
+        "plugins": [
+            "react"
+        ]
+    },
+    "description": "GBBP's DApp for moving tokens around",
+    "scripts": {
+        "build-wp": "tsc --build && webpack-cli src/app.tsx --config webpack-config.js",
+        "build": "tsc --build",
+        "clean": "tsc --build --clean",
+        "start": "node server"
+    },
+    "author": {
+        "name": "Mark Waser"
+    },
+    "devDependencies": {
+        "@types/node": "^13.13.4",
+        "typescript": "^3.8.3"
+    },
+    "dependencies": {
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "path": "^0.12.7",
+        "universal-cookie": "^4.0.3"
+    },
+    "engines": {
+        "node": "^8.9.4"
+    }
+}
