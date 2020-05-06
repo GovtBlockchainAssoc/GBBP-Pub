@@ -62,6 +62,10 @@
     <None Include="server.ts" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="src\images\google.svg" />
+    <Content Include="src\images\QR1.png" />
+    <Content Include="src\images\QR2.png" />
+    <Content Include="src\images\QR3.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config" />
     <Content Include="tsconfig.json" />
@@ -70,6 +74,8 @@
     <Folder Include="build\" />
     <Folder Include="build\contracts\" />
     <Folder Include="dist\" />
+    <Folder Include="src\" />
+    <Folder Include="src\images\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="svg.d.ts">
