@@ -48,6 +48,7 @@
     <Content Include="build\contracts\Roles.json" />
     <Content Include="build\contracts\SafeMath.json" />
     <Content Include="build\contracts\StandaloneERC20.json" />
+    <None Include="GBA-GBBP - Web Deploy.pubxml" />
     <Content Include="dist\1e59d2330b4c6deb84b340635ed36249.ttf" />
     <Content Include="dist\20fd1704ea223900efa9fd4e869efb08.woff2" />
     <Content Include="dist\8b43027f47b20503057dfbbaa9401fef.eot" />
@@ -55,12 +56,12 @@
     <Content Include="dist\app-bundle.js.map" />
     <Content Include="dist\c1e38fd9e0e74ba58f7a2b77ef29fdd3.svg" />
     <Content Include="dist\f691f37e57f04c152e2315ab7dbad881.woff" />
-    <None Include="GBA-GBBP - Web Deploy.pubxml" />
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
     <None Include="server.ts" />
     <Content Include="package.json" />
+    <None Include="Properties\PublishProfiles\GBA-GBBP - Web Deploy.pubxml" />
     <Content Include="README.md" />
     <Content Include="src\images\google.svg" />
     <Content Include="src\images\QR1.png" />
@@ -74,6 +75,8 @@
     <Folder Include="build\" />
     <Folder Include="build\contracts\" />
     <Folder Include="dist\" />
+    <Folder Include="Properties\" />
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="src\" />
     <Folder Include="src\images\" />
   </ItemGroup>
